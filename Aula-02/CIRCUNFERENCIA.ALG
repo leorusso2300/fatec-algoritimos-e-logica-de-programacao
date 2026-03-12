@@ -1,10 +1,11 @@
-Algoritmo "semnome"
+Algoritmo "Leonardo Russo"
+//
+//
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 05/03/2026
-Var
+// Professor   : Tung
+// Descrição   : Circuferencia
+// Autor(a)    : Leonardo Russo
+// Data atual  : 12/03/2026
 // Seção de Declarações das variáveis 
 RAIO: REAL
 PERIMETRO: REAL

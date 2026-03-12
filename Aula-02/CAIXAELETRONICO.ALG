@@ -1,9 +1,11 @@
-Algoritmo "semnome"
+Algoritmo "Leonardo Russo"
+//  
+//  
 // Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 05/03/2026
+// Professor   : Tung
+// Descrição   : Caixa eletronico
+// Autor(a)    : Leonardo Russo
+// Data atual  : 12/03/2026
 Var
 // Seção de Declarações das variáveis 
 N100,N50,N20,N10,N5: INTEIRO
