@@ -1,4 +1,6 @@
-Algoritmo "Leonardo Russo"
+Algoritmo "Leonardo Gabriel e Vinicius Almendanha"
+//  
+//  
 //
 //
 // Disciplina   : [Linguagem e Lógica de Programação]
@@ -15,11 +17,11 @@ Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
 
-ESCREVAL("DIGITE O VALOR DA TEMPERATURA CELSIUS")
-LEIA(CELSIUS)
-FARENHEIT<-(9/5*CELSIUS+32)
+ESCREVAL("DIGITE O VALOR DA TEMPERATURA FARENHEIT")
+LEIA(FARENHEIT)
+CELSIUS<-(9/5*CELSIUS+32)
 
-ESCREVAL("TEMPERATURA=",FARENHEIT, " [F]")
+ESCREVAL("TEMPERATURA=",FARENHEIT, " [C]")
 
 
 Fimalgoritmo
