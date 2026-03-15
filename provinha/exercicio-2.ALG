@@ -1,19 +1,14 @@
-Algoritmo "semnome"
-//  
-//  
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+Algoritmo "Leonardo Russo"
+// Descrição   : Exercício 2 - Operações matemáticas
+// Autor(a)    : Leonardo Russo
 // Data atual  : 12/03/2026
-Var
-// Seção de Declarações das variáveis 
 
+Var
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
-escreva(2+5*3*3-3)
-escreva(2*(3-1)+4*2)
-escreva(2*2 * (6-2) * 6)
+
+   escreval(2 + 5 * 3 * 3 - 3)
+   escreval(2 * (3 - 1) + 4 * 2)
+   escreval(2 * 2 * (6 - 2) * 6)
 
 Fimalgoritmo
