@@ -27,8 +27,6 @@ for contador in range(0,2):
         idadePessoaMaisVelha = idade
         pessoaMaisVelha = vetorNome[contador]
     
-    if 
-
 
 print(f"{pessoaMaisVelha} é a pessoa mais velha com {idadePessoaMaisVelha} anos.")
 
