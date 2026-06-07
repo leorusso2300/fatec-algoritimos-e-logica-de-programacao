@@ -10,7 +10,6 @@ maiorDistancia = 0
 
 
 for contador in range(0,3):
-
     print("-------------------------------")
     nome = str(input("Digite o nome: "))
     vetorNome.append(nome)
@@ -30,5 +29,6 @@ for contador in range(0,3):
         municipioMoraMaisLonge = vetorMunicipio[contador]
         maiorIdade = vetorIdade[contador]
 
-print(f"Com {maiorIdade} anos, morando em {municipioMoraMaisLonge}, {nomePessoaMoraMaisLonge} é a pessoa que mora mais longe do trabalho, com {maiorDistancia} km de distância.")
+print(f"Com {maiorIdade} anos, morando em {municipioMoraMaisLonge}, {nomePessoaMoraMaisLonge} "
+f"é a pessoa que mora mais longe do trabalho, com {maiorDistancia} km de distância.")
 
