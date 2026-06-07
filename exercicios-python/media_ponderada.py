@@ -2,7 +2,7 @@ notas = []
 
 contador = 1
 
-while(contador <= 3):
+while contador <= 3:
     nota = float(input("Digite a nota da prova: "))
     notas.append(nota)
     contador += 1
