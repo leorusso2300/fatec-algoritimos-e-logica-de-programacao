@@ -1,34 +1,23 @@
-vetorNome = [] 
-vetorMunicipio = []
-vetorDistancia = []
-vetorIdade = []
+pessoas = []
 
-nomePessoaMoraMaisLonge = ""
-municipioMoraMaisLonge = ""
-maiorIdade = 0
-maiorDistancia = 0
-
-
-for contador in range(0,3):
+for contador in range(3):
     print("-------------------------------")
-    nome = str(input("Digite o nome: "))
-    vetorNome.append(nome)
 
-    idade = int(input("Digite a idade: "))
-    vetorIdade.append(idade)
+    pessoas.append({
+        "nome": input("Digite o nome: "),
+        "idade": int(input("Digite a idade: ")),
+        "municipio": input("Digite o município: "),
+        "distancia": int(input("Digite a distância da sua casa até o trabalho: "))
+    })
 
-    municipio = str(input("Digite o município: "))
-    vetorMunicipio.append(municipio)
+mais_longe = pessoas[0]
 
-    distancia = int(input("Digite a distância da sua casa até o trabalho: "))
-    vetorDistancia.append(distancia)
+for pessoa in pessoas:
+    if pessoa["distancia"] > mais_longe["distancia"]:
+        mais_longe = pessoa
 
-    if distancia > maiorDistancia:
-        maiorDistancia = distancia
-        nomePessoaMoraMaisLonge = vetorNome[contador]
-        municipioMoraMaisLonge = vetorMunicipio[contador]
-        maiorIdade = vetorIdade[contador]
-
-print(f"Com {maiorIdade} anos, morando em {municipioMoraMaisLonge}, {nomePessoaMoraMaisLonge} "
-f"é a pessoa que mora mais longe do trabalho, com {maiorDistancia} km de distância.")
-
+print(
+    f"Com {mais_longe['idade']} anos, morando em {mais_longe['municipio']}, "
+    f"{mais_longe['nome']} é a pessoa que mora mais longe do trabalho, "
+    f"com {mais_longe['distancia']} km de distância."
+)

@@ -8,12 +8,12 @@ while contador <= 3:
     contador += 1
 
 soma = 0
-mediaFinal = 0
+media_final = 0
 for nota in notas:
     soma += nota
-    mediaFinal = soma / 3 
+    media_final = soma / 3
 
-print(f"A média final do aluno é {mediaFinal:.2f}")
+print(f"A média final do aluno é {media_final:.2f}")
 
 
             
